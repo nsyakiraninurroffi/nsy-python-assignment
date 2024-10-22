@@ -1,0 +1,21 @@
+# Dibuat oleh : Nesya Kirani Nurroffi
+# Tanggal Pengerjaan : 24 / 09 / 2024
+# Program Menghitung rumus jajar genjang
+
+# Menghitung keliling jajar genjang menggunakan lambda
+keliling_jajar_genjang = lambda a, b: 2 * (a + b)
+luas_jajar_genjang = lambda a, t: a * t
+
+# Function untuk menampilkan hasil
+def hitung_jajar_genjang(a, b, t):
+    keliling = keliling_jajar_genjang(a, b)
+    luas = luas_jajar_genjang(a, t)
+    return f"Keliling jajar genjang: {keliling:.2f}, Luas jajar genjang: {luas:.2f}"
+
+# Input panjang alas, sisi miring, dan tinggi jajar genjang
+a = float(input("Masukkan panjang alas jajar genjang: "))
+b = float(input("Masukkan panjang sisi miring jajar genjang: "))
+t = float(input("Masukkan tinggi jajar genjang: "))
+
+# Output hasil perhitungan
+print(hitung_jajar_genjang(a, b, t))

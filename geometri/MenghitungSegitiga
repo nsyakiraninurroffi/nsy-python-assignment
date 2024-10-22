@@ -1,0 +1,20 @@
+# Dibuat oleh : Nesya Kirani Nurroffi 
+# Tanggal Pengerjaan : 24 / 09 / 2024
+# Program Menghitung rumus segitiga
+
+def segitiga():
+    alas = int(input("Masukan Alas\t\t:"))
+    tinggi = int(input("Masukan Tinggi\t\t:"))
+    lebar = int(input("Masukan Lebar\t\t:"))
+    print("="*40)
+    
+    luas = lambda a,t :0.5*a*t 
+    keliling = lambda a,t,l : a*t*l
+    
+    print(f"Luas Segitiga Adalah\t:{luas(alas,tinggi)}cm2")
+    print(f"Keliling Segitiga\t:{keliling(alas,tinggi,lebar)}cm")
+    print("="*40)
+
+segitiga()
+segitiga()    
+segitiga()

@@ -1,0 +1,19 @@
+# Dibuat oleh : Nesya Kirani Nurroffi
+# Tanggal Pengerjaan : 24 / 09 / 2024
+# Program Menghitung rumus Lingkaran
+
+def lingkaran():
+
+    print ("="*40)
+    rusuk = int(input("Masukan jari-jari: "))
+    
+    phi = 3.14
+    l = (rusuk * rusuk * phi)
+    k = (2 * phi * rusuk)
+    print ("\n===========ini hasilnya===========")
+    print(f"Luas Lingkaran = {l}cm\n")
+    print(f"Keliling Lingkaran = {k}cm\n")
+
+lingkaran()
+lingkaran()
+lingkaran()

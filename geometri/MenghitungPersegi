@@ -1,0 +1,18 @@
+# Dibuat oleh : Nesya Kirani Nurroffi
+# Tanggal Pengerjaan : 24 / 09 / 2024
+# Program Menghitung rumus persegi
+
+print("="*40)
+def persegi():
+    sisi = int(input("Masukan Sisi Persegi\t\t\033[1;35;40m: "))
+    luas = lambda s : s * s
+    keliling = lambda s : 4 * s
+    
+
+    print("Luas Persegi Adalah\t\t\033[1;34;40m:", luas(sisi), "cm2")
+    print("Keliling Persegi Adalah\t\t\033[1;33;40m:", keliling(sisi), "cm")
+    print("="*40)
+    
+persegi()
+persegi()
+persegi()
