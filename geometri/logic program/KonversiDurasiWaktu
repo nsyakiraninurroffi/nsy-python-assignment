@@ -1,0 +1,14 @@
+# INPUT DURASI DALAM DETIK
+durasi_detik = int(input("Masukan Durasi dalam Detik\t\t:"))
+
+# MENGONVERSI KEH HARI, JAM, MENIT, DAN DETIK
+hari = durasi_detik // (24 * 3600)
+durasi_detik %= (24 * 3600)
+jam = durasi_detik // 3600
+durasi_detik %= 3600
+menit = durasi_detik // 60
+detik = durasi_detik % 60
+
+# MENAMPILKAN HASIL KONVERSI
+print(f"{hari} Hari, {jam} Jam, {menit} Menit, {detik} Detik")
+    
