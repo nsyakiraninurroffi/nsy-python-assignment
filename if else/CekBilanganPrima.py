@@ -1,3 +1,6 @@
+# Dibuat oleh : Nesya Kirani Nurroffi
+# Tanggal Pengerjaan : 08 / 11 / 2024
+# Program Cek Bilangan Prima
 
 print("="*40)
 angka = int(input("Masukkan sebuah angka: "))
