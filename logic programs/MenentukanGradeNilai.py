@@ -2,7 +2,7 @@
 # Tanggal Pengerjaan : 26 / 10 / 2024
 # Program Menentukan Grade Nilai
 
-
+print("="*40)
 def tentukan_grade(nilai):
     if nilai >= 90:
         return "A"

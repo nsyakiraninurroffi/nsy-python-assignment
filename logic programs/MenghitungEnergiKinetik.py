@@ -3,7 +3,7 @@
 # Program Menghitung Energi Kinetik
 
 print("\033[1;34m=====================")
-print("====Enegri Kinetik====")
+print("====Energi Kinetik====")
 print("=====================")
 
 m = float(input("Masukan massa/berat nya: "))

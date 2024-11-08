@@ -2,7 +2,6 @@
 # Tanggal Pengerjaan : 08 / 11 / 2024
 # Program Menghitung Diskon Bersadarkan Total Belanja
 
-print("="*40)
 print("Program Menghitung Diskon Berdasarkan Total Belanja")
 def hitung_diskon(total_belanja):
     if total_belanja >= 100000:

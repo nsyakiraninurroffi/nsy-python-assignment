@@ -1,6 +1,6 @@
 #  Dibuat oleh : Nesya Kirani Nurroffi
 # Tanggal Pengerjaan : 08 / 11 / 2024
-# Program Menghitung Jarak
+# Program Menghitung Kalor Jenis Es
 
 print("\033[1;34m=====================")
 print("====PERPINDAHAN LEBUR ES====")
