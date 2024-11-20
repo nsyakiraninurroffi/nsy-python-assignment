@@ -1,0 +1,5 @@
+print("*"*40)
+print("PROGRAM PYTHON")
+print("Oleh : Nesya Kirani Nurroffi")
+print("Kelas : X PPLG 2")
+print("*"*40)
