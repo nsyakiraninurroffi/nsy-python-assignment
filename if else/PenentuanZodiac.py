@@ -1,4 +1,4 @@
-#  Dibuat oleh : Nesya Kirani Nurroffi
+# Dibuat oleh : Nesya Kirani Nurroffi
 # Tanggal Pengerjaan : 08 / 11 / 2024
 # Program Penentuan Zodiak Berdasarkan Bulan
 
