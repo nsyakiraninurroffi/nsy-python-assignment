@@ -1,0 +1,11 @@
+# 3. 1 + 3 + 5 = 9
+i = 1
+total = 0
+output = ""
+while i <= 5:
+    output += str(i)
+    total += i
+    i += 2
+    if i <= 5:
+        output += " + "
+print(f"{output} = {total}")
